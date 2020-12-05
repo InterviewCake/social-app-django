@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0](https://github.com/python-social-auth/social-app-django/releases/tag/3.4.0) - 2020-05-30
+
+### Changed
+- Dropped support for older Django versions (1.8, 1.9, 1.10, 2.0)
+- Fix `TypeError` when continuing a pipeline in Django 2.1
+
+## [3.4.0](https://github.com/python-social-auth/social-app-django/releases/tag/3.4.0) - 2020-05-30
+
+### Changed
+- Correct release mechanism
+
+## [3.3.0](https://github.com/python-social-auth/social-app-django/releases/tag/3.3.0) - 2020-05-30
+
+### Changed
+- Updated release and tests mechanism
+
+## [3.2.0](https://github.com/python-social-auth/social-app-django/releases/tag/3.2.0) - 2020-05-30
+
+### Changed
+- Increase social-core dependency version
+
+### Added
+- Implement `get` and `delete` class methods for `DjangoNonceMixin`
+- Added `created` and `modified` fields to `UserSocialAuth` model
+
 ## [3.1.0](https://github.com/python-social-auth/social-app-django/releases/tag/3.1.0) - 2018-10-31
 
 ### Changed
